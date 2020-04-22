@@ -1,0 +1,51 @@
+.container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .content {
+    width: 100%;
+    max-height: 900px;
+    padding: 60px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container .content section {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 18px;
+}
+
+.container .content form { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .content form input {
+   width: 250%;
+}
+
+/* Define um estilo para todo button da classe .input-group que tem um input antes */ 
+.container .content form input + button {
+    margin-left: 8px;
+}
+
+.container .content .map-container {
+    margin-top: 8px;
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+}
