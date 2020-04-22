@@ -1,4 +1,4 @@
-![alt text](https://github.com/Roonway/geo-location/tree/master/frontend/src/asset/logo.svg?raw=true)
+![alt text](https://github.com/Roonway/geo-location/blob/master/frontend/src/asset/logo.svg?raw=true)
 
 # Introdução
 
@@ -37,3 +37,4 @@ ou
     $ npm start
 ```
 5. Ao finalizar o 4º passo será aberto uma aba no navegador executando a aplicação, se isso não ocorrer abra o browser de sua preferencia de acesse [localhost:3000](http://localhost:3000/).
+
